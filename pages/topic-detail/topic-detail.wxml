@@ -2,7 +2,7 @@
 
     <view class="deatil-top">
         <view class="top-left">
-            <image class="top-img" src="{{topicDetail.member.avatar_normal}}"/>
+            <image class="top-img" src="{{topicDetail.member.avatar_normal}}" />
 
             <view class="top-info">
                 <text class="info-username">{{topicDetail.member.username}}</text>
@@ -31,7 +31,7 @@
 
     <block wx:for="{{topicReplies}}">
         <view class="floor">
-            <image class="avatar" src="{{item.member.avatar_normal}}"/>
+            <image class="avatar" src="{{item.member.avatar_normal}}" />
 
             <view class="floor-info">
                 <text class="info-username">{{item.member.username}}</text>

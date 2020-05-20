@@ -35,7 +35,7 @@
 .info-username {
     font-size: 24rpx;
     font-weight: bold;
-    color: #778087
+    color: #778087;
 }
 
 .info-time {
@@ -76,6 +76,7 @@
 .replies-container {
     display: flex;
     flex-direction: column;
+    margin-bottom: 10px;
 }
 
 .replies-top {
@@ -125,7 +126,7 @@
     font-size: 24rpx;
     line-height: 22rpx;
     font-weight: bold;
-    color: #778087
+    color: #778087;
 }
 
 .info-time {

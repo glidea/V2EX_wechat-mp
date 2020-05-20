@@ -1,5 +1,4 @@
 ### V2EX小程序
-*组件化开发，模块分离*
 
 #### 项目预览
 ![image](https://github.com/glidea/V2EX_wechat-mp/blob/master/md's%20resource/hot.jpg)

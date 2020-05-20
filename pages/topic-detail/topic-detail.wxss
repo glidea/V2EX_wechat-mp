@@ -1,0 +1,147 @@
+.topic-deatil {
+    display: flex;
+    flex-direction: column;
+}
+
+.deatil-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15rpx;
+    margin-bottom: 15px;
+}
+
+.top-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.top-img {
+    width: 60rpx;
+    height: 60rpx;
+    border: 2rpx #cccccc solid;
+    border-radius: 50%;
+    margin-left: 20rpx;
+}
+
+.top-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15rpx;
+}
+
+.info-username {
+    font-size: 24rpx;
+    font-weight: bold;
+    color: #778087
+}
+
+.info-time {
+    font-size: 22rpx;
+    color: #778087;
+}
+
+.tag-text{
+    font-size: 22rpx;
+    color: #7f7f7f;
+    background-color: #e2e2e2;
+    margin-right: 5rpx;
+    padding: 6rpx 12rpx;
+    border-radius: 6rpx;
+}
+
+.detail-main {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-color: #e9ece5;
+    border-radius: 5%;
+    padding: 10rpx 25rpx;
+}
+
+.deatil-title {
+    font-size: 30rpx;
+    font-weight: 700;
+    color: #616a71;
+    margin-bottom: 5px;
+}
+
+.deatil-content {
+    font-size: 28rpx;
+    color: #616a71;
+}
+
+.replies-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.replies-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+    height: 40rpx;
+    font-size: 24rpx;
+    color: #778087;
+    border-bottom: 4rpx #E2E2E2 solid;
+}
+
+.count-title {
+    margin-left: 15rpx;
+    margin-right: 5rpx;
+}
+
+.count-num { 
+    float: right;
+    font-weight: 700;
+}
+
+.floor {
+    width: 100%;
+    padding: 20rpx 30rpx 0rpx 30rpx;
+    border-bottom: 4rpx #E2E2E2 dashed;
+    box-sizing: border-box;
+}
+
+.avatar {
+    float: left;
+    width: 60rpx;
+    height: 60rpx;
+    border: 2rpx #cccccc solid;
+    border-radius: 50%;
+    margin-top: 9rpx;
+}
+
+.floor-info{
+    float: left;
+    margin-left: 30rpx;
+}
+
+.info-username {
+    font-size: 24rpx;
+    line-height: 22rpx;
+    font-weight: bold;
+    color: #778087
+}
+
+.info-time {
+    font-size: 22rpx;
+    color: #778087;
+    line-height: 20rpx;
+    margin-top: 6rpx;
+    margin-bottom: 10rpx;
+}
+
+.reply-text {
+    width: 100%;
+    font-size: 28rpx;
+    font-weight: normal;
+    color: #778087;
+    margin-top: 20rpx;
+    margin-bottom: 20rpx;
+    float: left;
+}

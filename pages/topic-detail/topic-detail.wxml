@@ -1,0 +1,46 @@
+<view class="topic-deatil">
+
+    <view class="deatil-top">
+        <view class="top-left">
+            <image class="top-img" src="{{topicDetail.member.avatar_normal}}"/>
+
+            <view class="top-info">
+                <text class="info-username">{{topicDetail.member.username}}</text>
+                <text class="info-time">{{topicDetail.created}}</text>
+            </view>
+        </view>
+
+        <text class="tag-text">{{topicDetail.node.title}}</text>
+    </view>
+
+    <view class="detail-main">
+        <text class="deatil-title">{{topicDetail.title}}</text>
+
+        <text class="deatil-content">{{topicDetail.content}}</text>
+    </view>
+
+</view>
+
+<view class="replies-container">
+
+    <view class="replies-top">
+        <text class="count-title">回复:</text>
+
+        <text class="count-num">{{topicDetail.replies}}</text>
+    </view>
+
+    <block wx:for="{{topicReplies}}">
+        <view class="floor">
+            <image class="avatar" src="{{item.member.avatar_normal}}"/>
+
+            <view class="floor-info">
+                <text class="info-username">{{item.member.username}}</text>
+
+                <view class="info-time">{{item.created}}</view>
+            </view>
+
+            <text class="reply-text">{{item.content}}</text>
+        </view>
+    </block>
+
+</view>

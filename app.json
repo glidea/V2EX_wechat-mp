@@ -1,0 +1,45 @@
+{
+    "pages": [
+        "pages/hotest/hotest",
+        "pages/latest/latest",
+        "pages/topic-detail/topic-detail",
+        "pages/all-nodes/all-nodes",
+        "pages/some-nodes/some-nodes",
+        "pages/node-detail/node-detail"
+    ],
+    "window": {
+        "backgroundColor": "#eeeeee",
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#a8b6bf",
+        "navigationBarTitleText": "V2EX",
+        "navigationBarTextStyle": "black",
+        "enablePullDownRefresh": true
+    },
+    "usingComponents": {
+        "m-theme-block": "../../components/topic-block/index",
+        "m-node": "../../components/node/index"
+    },
+    "tabBar": {
+        "selectedColor": "#000000",
+        "backgroundColor": "#b3c2bf",
+        "list": [
+            {
+                "pagePath": "pages/hotest/hotest",
+                "iconPath": "images/hotest.png",
+                "selectedIconPath": "images/hotest_on.png"
+            },
+            {
+                "pagePath": "pages/latest/latest",
+                "iconPath": "images/latest.png",
+                "selectedIconPath": "images/latest_on.png"
+            },
+            {
+                "pagePath": "pages/some-nodes/some-nodes",
+                "iconPath": "images/node.png",
+                "selectedIconPath": "images/node_on.png"
+            }
+        ]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

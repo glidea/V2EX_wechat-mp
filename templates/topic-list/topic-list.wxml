@@ -1,0 +1,11 @@
+<template name="topic-list">
+
+    <view>
+        <block wx:for="{{topicList}}">
+            <m-theme-block tid="{{item.id}}" avatar="{{item.member.avatar_normal}}"
+                           username="{{item.member.username}}" tag="{{item.node.title}}"
+                           title="{{item.title}}" replies="{{item.replies}}" time="{{item.created}}"/>
+        </block>
+    </view>
+
+</template>

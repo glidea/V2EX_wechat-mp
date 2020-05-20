@@ -1,0 +1,23 @@
+<view bind:tap="onTopic" class="container animation">
+
+    <view class="head">
+
+        <view class="head-left">
+            <image class="avatar" src="{{avatar}}" />
+            <view class="info">
+                <view class="top">
+                    <text class="tag">{{tag}}</text>
+                    <text class="dot">·</text>
+                    <text class="username">{{username}}</text>
+                </view>
+                <text class="time">{{time}}</text>
+            </view>
+        </view>
+
+        <text class="replies">{{replies}}</text>
+
+    </view>
+
+    <text class="title">{{title}}</text>
+
+</view>

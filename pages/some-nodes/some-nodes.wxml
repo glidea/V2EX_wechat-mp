@@ -1,0 +1,13 @@
+<view class="node-category" wx:for="{{someNodes}}">
+
+    <view class="category-title">{{item.parent_node_name}}</view>
+
+    <block wx:for="{{item.childNode}}">
+        <m-node nid="{{item.id}}" name="{{item.title}}"></m-node>
+    </block>
+
+</view>
+
+<view class="more-node" bind:tap="onMore">
+    <text>更多节点</text>
+</view>

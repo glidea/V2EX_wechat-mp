@@ -1,0 +1,12 @@
+.container {
+    display: inline-block;
+    margin: 15rpx 10rpx;
+    border: 2rpx #e5e5e5 solid;
+    border-radius: 24rpx;
+}
+
+.name {
+    font-size: 24rpx;
+    color: #778087;
+    padding: 6rpx 20rpx;
+}

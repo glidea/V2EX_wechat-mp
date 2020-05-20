@@ -1,0 +1,3 @@
+<import src="../../templates/topic-list/topic-list.wxml"/>
+
+<template is="topic-list" data="{{topicList}}"/>

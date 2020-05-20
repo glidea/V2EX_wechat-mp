@@ -1,0 +1,5 @@
+<block wx:for="{{allNodes}}">
+
+    <m-node nid="{{item.id}}" name="{{item.name}}"></m-node>
+
+</block>

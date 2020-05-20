@@ -1,0 +1,27 @@
+.node-category{
+    width: 100%;
+}
+
+.category-title {
+    box-sizing: border-box;
+    width: 100%;
+    height: 60rpx;
+    font-size: 28rpx;
+    line-height: 60rpx;
+    font-weight: 700;
+    color: #777777;
+    text-align: left;
+    padding-left: 30rpx;
+    background-color: #e5e5e5;
+}
+
+.more-node {
+    font-size: 30rpx;
+    color: #777777;
+    font-weight: bold;
+    text-align: center;
+    background-color: #e5e5e5;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}

@@ -15,7 +15,7 @@ const formatNumber = n => {
 }
 
 const Timestamp2Date = (t) => {
-    return new Date(t * 1000);
+    return new Date(t * 1000)
 }
 
 export {

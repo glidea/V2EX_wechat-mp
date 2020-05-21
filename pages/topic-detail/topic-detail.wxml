@@ -16,7 +16,9 @@
     <view class="detail-main">
         <text class="deatil-title">{{topicDetail.title}}</text>
 
-        <text class="deatil-content">{{topicDetail.content}}</text>
+        <view class="deatil-content">
+            <text>{{topicDetail.content}}</text>
+        </view>
     </view>
 
 </view>
@@ -43,4 +45,8 @@
         </view>
     </block>
 
+</view>
+
+<view wx:if="{{display}}" class="loading">
+    <text>回复加载中...</text>
 </view>

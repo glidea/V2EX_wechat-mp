@@ -7,25 +7,30 @@ Page({
      */
     data: {
         topicDetail: null,
-        topicReplies: null
+        topicReplies: null,
+        display: false
     },
 
     /**
      * 生命周期函数--监听页面加载
      */
     onLoad: async function (options) {
-        wx.showLoading({
-            title: "加载中",
-            mask: true
-        })
-
         const topicDetail = await TopicModel.getTopicDetail(options.id)
-        const topicReplies = await TopicModel.getTopicReplies(options.id)
         this.setData({
             topicDetail,
-            topicReplies
         })
+        if (topicDetail.replies !== 0) {
+            this.setData({
+                display: true
+            })
+        }
 
-        wx.hideLoading()
+        // 为了优化加载体验，分两次set（设计成同步的缺陷）
+
+        const topicReplies = await TopicModel.getTopicReplies(options.id)
+        this.setData({
+            topicReplies,
+            display: false
+        })
     }
 })

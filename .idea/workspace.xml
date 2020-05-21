@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9df9364b-bd0b-4877-a66a-9558c02e2fbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/hotest/hotest.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/hotest/hotest.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/topic-detail/topic-detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/topic-detail/topic-detail.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/topic-detail/topic-detail.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/topic-detail/topic-detail.wxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/topic-detail/topic-detail.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/topic-detail/topic-detail.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/topic-list/topic-list.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/templates/topic-list/topic-list.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/util.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +79,9 @@
       <workItem from="1589633718296" duration="6414000" />
       <workItem from="1589769960409" duration="13939000" />
       <workItem from="1589865370932" duration="13554000" />
-      <workItem from="1589977883618" duration="1376000" />
+      <workItem from="1589977883618" duration="1587000" />
+      <workItem from="1590035989397" duration="3117000" />
+      <workItem from="1590046895603" duration="777000" />
     </task>
     <servers />
   </component>

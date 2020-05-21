@@ -4,7 +4,9 @@
 ![image](https://github.com/glidea/V2EX_wechat-mp/blob/master/md's%20resource/node.jpg)
 
 ## 项目简介
-此项目基于https://github.com/hankzhuo/wx-v2ex （几乎完全重构原代码）
+此项目基于https://github.com/hankzhuo/wx-v2ex    
+几乎完全重构原代码，主要挪用了ui和api   
+**在此表示感谢！**
 
 *此项目相对于based项目的不同：*
 * 组件化开发

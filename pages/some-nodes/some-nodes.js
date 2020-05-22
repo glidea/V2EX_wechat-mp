@@ -6,7 +6,10 @@ Page({
      * 页面的初始数据
      */
     data: {
-        someNodes: null
+        someNodes: null,
+
+        // 是否显示 底部更多节点
+        display: false
     },
 
     /**
@@ -21,7 +24,8 @@ Page({
         // set data
         const someNodes = await NodeModel.getSome();
         this.setData({
-            someNodes
+            someNodes,
+            display: true
         })
 
         wx.hideLoading()

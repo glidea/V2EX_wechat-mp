@@ -8,7 +8,7 @@
         "pages/node-detail/node-detail"
     ],
     "window": {
-        "backgroundColor": "#eeeeee",
+        "backgroundColor": "#a8b6bf",
         "backgroundTextStyle": "light",
         "navigationBarBackgroundColor": "#a8b6bf",
         "navigationBarTitleText": "V2EX",

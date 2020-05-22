@@ -14,6 +14,10 @@
 * request改用async，await
 * UI优化（前端水平有限，css水平更有限，帖子详情页面布局有个小小bug，所以不推荐学习此项目的css）
 
+## TODO List
+* 优化加载体验
+* 使用ColorUI改善UI
+
 ## 小程序码
 ![image](https://github.com/glidea/V2EX_wechat-mp/blob/master/md's%20resource/code.png)
 

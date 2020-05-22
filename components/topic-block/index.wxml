@@ -1,4 +1,4 @@
-<view bind:tap="onTopic" class="container" hover-class="animation" hover-stay-time="10000">
+<view bind:tap="onTopic" class="container animation">
 
     <view class="head">
 

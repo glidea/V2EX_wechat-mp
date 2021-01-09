@@ -22,4 +22,4 @@
 ![image](https://github.com/glidea/V2EX_wechat-mp/blob/master/md's%20resource/code.png)
 
 ## tips:
-* 请保证项目设置勾选了ES6 转 ES5 和 增强编译
+* 请保证项目设置勾选了ES6 转 ES5 和 增强编译.
